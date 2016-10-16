@@ -1,0 +1,11 @@
+[package]
+name = "fizz_buzz"
+version = "1.0.0"
+authors = ["Eike"]
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
